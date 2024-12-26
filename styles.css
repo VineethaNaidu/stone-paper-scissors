@@ -9,6 +9,7 @@ h1 {
   color: white;
   height: 5rem;
   line-height: 5rem;
+  width: 100vw;
 }
 
 .choice {
@@ -33,10 +34,12 @@ button {
 }
 
 .choices {
+  height: 25vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3vmin;
+  gap: 2vmin;
   margin-top: 2rem;
 }
 
@@ -61,7 +64,9 @@ button {
   font-size: 2rem;
   background-color: black;
   color: white;
-  display: inline;
+  display: inline-block;
+  max-width: 100%;
+  word-wrap: break-word;
   padding: 1rem;
   border-radius: 1rem;
 }
